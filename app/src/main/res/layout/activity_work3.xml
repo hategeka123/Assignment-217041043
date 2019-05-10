@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/jmv.jpg"
+        android:src="@drawable/jmv"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+      android:layout_marginLeft="@android:dimen/thumbnail_width"
+        android:text="softwaresDeveloper"
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+    <ImageView
+        android:id="@+id/dodo.jpg"
+        android:src="@drawable/dodo"
+        android:layout_below="@id/jmv.jpg"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:layout_marginLeft="@android:dimen/thumbnail_width"
+        android:text="Play this  Games"
+        android:layout_below="@id/jmv.jpg"
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+    <ImageView
+        android:id="@+id/soso.jpg"
+        android:src="@drawable/soso"
+        android:layout_below="@id/dodo.jpg"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:layout_marginLeft="@android:dimen/thumbnail_width"
+        android:text="Android well photos"
+        android:layout_below="@id/dodo.jpg"
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+    <ImageView
+        android:id="@+id/koko.jpg"
+        android:src="@drawable/koko"
+        android:layout_below="@id/soso.jpg"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:layout_marginLeft="@android:dimen/thumbnail_width"
+        android:text="God is all at all time"
+        android:layout_below="@id/soso.jpg"
+        android:textSize="30dp"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:text="well come to this pagr thxs"
+        android:layout_below="@id/koko.jpg"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
